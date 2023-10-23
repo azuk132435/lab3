@@ -11,7 +11,7 @@ public class ArrayExamples {
     }
   }
 
-  // Returns a *new* array with all the elements of the input array in reversed
+  // Returns a *new* array with all the elements of the input     array in reversed
   // order
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -36,7 +36,5 @@ public class ArrayExamples {
     }
     return sum / (arr.length - 1);
   }
-
-
 }
 

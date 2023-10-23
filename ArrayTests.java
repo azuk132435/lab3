@@ -9,10 +9,15 @@ public class ArrayTests {
     assertArrayEquals(new int[]{3,2,1}, input1);
 	}
 
-
   @Test
   public void testReversed() {
     int[] input1 = {1,2,3};
     assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
   }
+
+  @Test
+  public void testaverageWithoutLowest() {
+    double[] input1 = {5,5,7,6};
+    assertEquals(6.0 , ArrayExamples.averageWithoutLowest(input1), 0.0);
+	} 
 }
